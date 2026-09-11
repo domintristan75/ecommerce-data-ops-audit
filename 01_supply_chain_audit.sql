@@ -30,7 +30,7 @@ LEFT JOIN products p
 WHERE p.product_weight_g IS NULL 
     OR p.product_weight_g = 0
 
-26 missing and null values found
+-- 26 missing and null values found
 
 -- =========================================================
 -- AUDIT TASK 2: Fulfillment Delay & Bottleneck Analysis
