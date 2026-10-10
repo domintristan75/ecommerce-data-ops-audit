@@ -1,7 +1,5 @@
--- =========================================================
--- PROJECT: Olist Supply Chain & Data Hygiene Audit
--- SCRIPT: 01_supply_chain_audit.sql
--- =========================================================
+
+-- Project: Olist Supply Chain & Data Hygiene Audit
 
 -- Query 1: Basic Table Validation
 -- SELECT order_id, product_id, seller_id FROM order_items LIMIT 10;
@@ -32,9 +30,7 @@ WHERE p.product_weight_g IS NULL
 
 -- 26 missing and null values found
 
--- =========================================================
--- AUDIT TASK 2: Fulfillment Delay & Bottleneck Analysis
--- =========================================================
+-- Task 2: Fulfillment Delay & Bottleneck Analysis
 
 -- Query 1: Isolate Severe Delivery Delays
 -- Objective: Calculate exact days delayed past estimated delivery date for late shipments.
